@@ -87,7 +87,7 @@ The script expects an Excel file where the **first row is the header** and the f
 
 - `IP Address`        – device IP address  
 - `Hostname`          – device hostname  
-- `Modello Hardware`  – hardware model (e.g. `C9300-24T`)  
+- `Hardware Model`    – device hardware model (e.g. `C9300-24T`)  
 - `image`             – Cisco OS version or image (e.g. `17.3.5` or `9.3(9)`)
 
 An example file is included:
