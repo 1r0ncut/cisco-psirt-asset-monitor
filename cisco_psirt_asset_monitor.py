@@ -37,7 +37,7 @@ parser = argparse.ArgumentParser(
         "The input Excel file must have at least these columns:\n"
         "  - 'IP Address'        (device IP)\n"
         "  - 'Hostname'          (device hostname)\n"
-        "  - 'Modello Hardware'  (hardware model)\n"
+        "  - 'Hardware Model'    (device hardware model)\n"
         "  - 'image'             (Cisco IOS/NX-OS image or version)"
     ),
     formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -258,7 +258,7 @@ def main():
                 for adv in vers_adv_map[excel_entry["image"]]:
                     worksheet.write(rows_count, 0, excel_entry["IP Address"])
                     worksheet.write(rows_count, 1, excel_entry["Hostname"])
-                    worksheet.write(rows_count, 2, excel_entry["Modello Hardware"])
+                    worksheet.write(rows_count, 2, excel_entry["Hardware Model"])
                     worksheet.write(rows_count, 3, excel_entry["image"])
                     worksheet.write(rows_count, 4, adv["cvss"])
                     worksheet.write(rows_count, 5, adv["impact"])
