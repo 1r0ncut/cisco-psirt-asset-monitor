@@ -50,7 +50,7 @@ Examples:
 The input Excel file must have at least these columns:
   - 'IP Address'        (device IP)
   - 'Hostname'          (device hostname)
-  - 'Modello Hardware'  (hardware model)
+  - 'Hardware Model'    (device hardware model)
   - 'image'             (Cisco IOS/NX-OS image or version)
 ```
 
