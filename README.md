@@ -146,7 +146,7 @@ client_pass = "YOUR_APP_CLIENT_SECRET"
 You can either:
 
 - Use the provided `sample_cisco_asset_inventory.xlsx`, or  
-- Create your own file with the required columns (`IP Address`, `Hostname`, `Modello Hardware`, `image`).
+- Create your own file with the required columns (`IP Address`, `Hostname`, `Hardware Model`, `image`).
 
 ### 7. Run the script
 
